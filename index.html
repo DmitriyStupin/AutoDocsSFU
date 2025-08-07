@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@a1rth/css-normalize/normalize.min.css"
+    />
+
+    <title>AutoDocsSFU</title>
+  </head>
+  <body class="wrapper">
+    <header class="header">
+      <div class="header__inner container">
+        <a href="" class="header__logo logo">AutoDocsSFU</a>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Заполнение заявлений СФУ онлайн</h1>
+      <section class="statements">
+        <div class="statements__inner container">
+          <ul class="statements__list">
+            <li class="statements__item">
+              <h2 class="statements__title">Социальная стипендия</h2>
+              <p class="statements__description">
+                Заявление на назначение государственной социальной стипендии для
+                студентов, находящихся в трудной жизненной ситуации.
+              </p>
+              <button class="statements__button">Создать заявление</button>
+            </li>
+            <li class="statements__item">
+              <h2 class="statements__title">Материальная помощь (Скамим СФУ)</h2>
+              <p class="statements__description">
+                Рил халява
+              </p>
+              <button class="statements__button">Создать заявление</button>
+            </li>
+          </ul>
+
+          <form id="form" class="visually-hidden">
+
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner container">
+        <a href="/" class="header__logo logo">AutoDocsSFU</a>
+        <p class="footer__copyright">
+          Created by
+          <a
+            href="https://dmitrystupin.ru/"
+            target="_blank"
+            class="footer__link"
+            >Dmitry Stupin</a
+          >
+          ^_^
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/pizzip@3.0.6/dist/pizzip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docxtemplater@3.21.2/build/docxtemplater.js"></script>
+    <script src="./script.js" type="module" defer></script>
+  </body>
+</html>
